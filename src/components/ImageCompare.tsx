@@ -37,14 +37,6 @@ export default function ImageComparePage() {
           className="mx-auto"
         />
       </div>
-      <h3 className="text-2xl bold">Parameter-based optimized image</h3>{" "}
-      <div className="w-full">
-        <img
-          src={`${NextJsImage.src}?width=400&height=300`}
-          alt="image-compare-4 optimized"
-          className="mx-auto"
-        />
-      </div>
     </div>
   )
 }
