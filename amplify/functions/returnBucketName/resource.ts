@@ -5,7 +5,4 @@ export const returnBucketName = defineFunction({
   name: "returnBucketName",
   // optionally specify a path to your handler (defaults to "./handler.ts")
   entry: "./handler.ts",
-  environment: {
-    BUCKETNAME: "under construction",
-  },
 });
